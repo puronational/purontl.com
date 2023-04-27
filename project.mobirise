@@ -1,0 +1,770 @@
+{
+  "settings": {
+    "name": "PuroClean National",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "titlePreset": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#ff6666",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": "4.6",
+        "display2Font": "Jost",
+        "display2Size": "3.6",
+        "display5Font": "Jost",
+        "display5Size": "1.8",
+        "display7Font": "Jost",
+        "display7Size": "1",
+        "display4Font": "Jost",
+        "display4Size": "1.4",
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.8.6",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "uniqCompNum": 10,
+    "versionPublish": "5.8.0",
+    "imageResize": true,
+    "favicon": false,
+    "mbrsiteDomain": "alsvwo1uaa",
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-white-label": true,
+    "witsec-mailform": false,
+    "witsec-jquery": false,
+    "pwa-switcher": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu01",
+          "_sourceTheme": "politicsm4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu01 politicsm4_menu01\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header condition=\"showLogo\">Size</header>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"5\" condition=\"showLogo\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\">\n\t\t<input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ed4266\" condition=\"showItems\">\n\t\t<input type=\"checkbox\" title=\"Button(s)\" name=\"showButtons\">\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#36404c\">\n\t\t<input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky, 'navbar-toggleable-sm': !collapsed, 'collapsed': collapsed, 'bg-color transparent': transparent}\">\n\t\t<button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t<div class=\"hamburger\">\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t</div>\n\t\t</button>\n\n\t\t<div class=\"menu-logo\">\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/puroclean-logo-line-3.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">SITE COMING SOON</a></span>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t<ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\">\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link link text-black dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"true\">\n\t\t\t\t\t\tPages</a>\n\t\t\t\t\t<div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a><a class=\"text-black dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"text-black dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a></div>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item dropdown\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\tNews</a></li>\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\tEvents</a></li>\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\tContact</a></li>\n\t\t\t</ul>\n\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\tJoin Us</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\tDonate</a></div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_styles": {
+            ".navbar": {
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px",
+              "padding": "0.5rem 0",
+              "box-shadow": "0 0 15px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".show": {
+              "overflow": "visible"
+            },
+            ".dropdown-menu": {
+              "max-height": "400px"
+            },
+            ".dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem 1.2rem !important",
+                "-webkit-align-items": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.7rem 2rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "1rem",
+                "padding": "0",
+                "transition": "padding 0.2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": "0.3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "padding-right": "1rem",
+              "max-width": "100%",
+              "width": "100%",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            "& when (@showItems)": {
+              ".navbar-toggleable-sm .navbar-collapse": {
+                "justify-content": "space-between !important"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "box-shadow": "0 0 15px 0 rgba(0, 0, 0, 0.1)",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "none",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all 0.2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing, &.show": {
+                  "display": "block !important",
+                  "overflow": "auto",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 992px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "(100vh - ((15 * @logoSize) / 8))"
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": "0.5s",
+                  "transition-property": "opacity, padding, height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle='dropdown-submenu']::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": "0.3em",
+                  "vertical-align": "middle",
+                  "content": "''",
+                  "border-top": "0.3em solid",
+                  "border-right": "0.3em solid transparent",
+                  "border-left": "0.3em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing, &.show": {
+                  "display": "block !important",
+                  "overflow": "auto",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": "0.5s",
+                  "transition-property": "opacity, padding, height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle='dropdown-submenu']::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": "0.3em",
+                  "vertical-align": "middle",
+                  "content": "''",
+                  "border-top": "0.3em solid",
+                  "border-right": "0.3em solid transparent",
+                  "border-left": "0.3em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".nav-link": {
+                "justify-content": "start !important"
+              },
+              ".navbar.opened": {
+                "height": "100%",
+                "overflow-y": "scroll",
+                "overflow-x": "hidden"
+              },
+              ".navbar-toggleable-sm": {
+                "width": "100% !important"
+              },
+              ".dropdown-menu": {
+                "box-shadow": "inset 0 0 15px 0 rgba(0, 0, 0, 0.1) !important",
+                "background": "#efefef !important"
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            },
+            "@media (min-width: 1500px)": {
+              ".navbar-toggleable-sm .navbar-collapse": {
+                "max-width": "60% !important",
+                "padding-right": "5rem"
+              },
+              ".menu-logo .navbar-brand": {
+                "margin-left": "5rem"
+              }
+            }
+          },
+          "_cid": "tCEBVcErij",
+          "_anchor": "home",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverse)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".image-wrapper": {
+              "padding": "0 2rem",
+              "img": {
+                "width": "100%",
+                "border-radius": "15px"
+              },
+              "@media (max-width: 1199px)": {
+                "padding": "0",
+                "margin-bottom": "3rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#1f1437",
+              "margin-bottom": "1.5rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#1f1437",
+              "margin-bottom": "4rem"
+            },
+            ".mbr-text": {
+              "color": "#1f1437",
+              "margin-bottom": "3rem"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper, .price": {
+                "padding-left": "4.5rem",
+                "padding-right": "2rem",
+                "@media (max-width: 1199px)": {
+                  "padding-left": "2.375rem"
+                },
+                "@media (max-width: 1099px)": {
+                  "padding-left": "1rem"
+                },
+                "@media (max-width: 1030px)": {
+                  "padding-left": "0.8rem"
+                },
+                "@media (max-width: 991px)": {
+                  "padding-left": "0"
+                }
+              }
+            },
+            ".content": {
+              "@media (max-width: 991px)": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-card-title": {
+              "color": "#1f1437",
+              "margin-bottom": "18px",
+              "@media (max-width: 991px)": {
+                "text-align": "start"
+              }
+            },
+            ".nutrition": {
+              "max-width": "543px",
+              "background-color": "@nutrBg",
+              "border-radius": "10px",
+              "padding": "2.5rem 2rem",
+              "margin-bottom": "2rem",
+              "margin-left": "4.5rem",
+              "margin-right": "2rem",
+              "@media (max-width: 1199px)": {
+                "margin-left": "2.375rem"
+              },
+              "@media (max-width: 1099px)": {
+                "margin-left": "1rem"
+              },
+              "@media (max-width: 1030px)": {
+                "margin-left": "0.8rem"
+              },
+              "@media (max-width: 991px)": {
+                "margin-left": "auto",
+                "margin-right": "auto"
+              },
+              "@media (max-width: 479px)": {
+                "padding": "1.5rem 1rem"
+              }
+            },
+            ".nutrition-head": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "border-bottom": "1px solid @horLineColor",
+              "margin-bottom": "1rem",
+              ".numbers": {
+                "margin-bottom": "18px"
+              }
+            },
+            ".nutrition-wrap": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "justify-content": "flex-start",
+              "@media (max-width: 991px)": {
+                "justify-content": "center"
+              },
+              "@media (max-width: 479px)": {
+                "flex-wrap": "wrap"
+              },
+              "@media (max-width: 388px)": {
+                "width": "100%"
+              },
+              ".nutrition-tile": {
+                "width": "100%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "space-between",
+                "margin-bottom": "1rem",
+                "&:last-child": {
+                  "margin-bottom": "0",
+                  "margin-top": "1rem"
+                }
+              }
+            },
+            ".tile-text-wrap": {
+              "display": "flex"
+            },
+            "svg": {
+              "display": "inline-block",
+              "width": "50px",
+              "height": "38px",
+              "margin-left": "-0.5rem",
+              "margin-right": "0.6rem",
+              "path": {
+                "fill": "@iconColor"
+              },
+              "& when not (@showIcon)": {
+                "display": "none"
+              }
+            },
+            ".numbers": {
+              "display": "flex",
+              "align-self": "center"
+            },
+            ".mbr-number": {
+              "width": "60px",
+              "margin-bottom": "0",
+              "&:first-child": {
+                "margin-right": "1rem"
+              }
+            },
+            ".mbr-tile-text": {
+              "color": "#1f1437",
+              "margin": "0",
+              "margin-right": "2rem",
+              "@media (max-width: 991px)": {
+                "text-align": "start"
+              }
+            },
+            ".price": {
+              "display": "flex",
+              "@media (max-width: 991px)": {
+                "flex-direction": "column-reverse",
+                "justify-content": "center"
+              }
+            },
+            ".price-text-wrap": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-left": "2rem",
+              "@media (max-width: 991px)": {
+                "margin-left": "0",
+                "justify-content": "center",
+                "& when (@showButtons)": {
+                  "margin-bottom": "1rem"
+                }
+              }
+            },
+            ".line": {
+              "width": "1px",
+              "height": "50px",
+              "margin": "0 20px",
+              "background-color": "@lineColor",
+              "opacity": "@lineOpacity",
+              "& when not (@showLine)": {
+                "opacity": "0"
+              }
+            },
+            ".mbr-price-text": {
+              "color": "#1f1437",
+              "margin-bottom": "0"
+            },
+            ".mbr-price-number": {
+              "color": "#1f1437",
+              "margin-bottom": "0"
+            },
+            ".mbr-amount-text": {
+              "color": "#1f1437",
+              "margin-bottom": "0"
+            },
+            ".mbr-amount-number": {
+              "color": "#1f1437",
+              "margin-bottom": "0"
+            },
+            "@media (min-width: 992px) and (max-width: 1199px)": {
+              "div[class*=\"col-lg\"]": {
+                "width": "100%"
+              }
+            },
+            ".mbr-section-btn": {
+              "& when (@showButtons)": {
+                "display": "flex"
+              }
+            }
+          },
+          "_name": "image4",
+          "_sourceTheme": "snackm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image4\" group=\"Image & Video\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" title=\"Width\" name=\"textWidth\" min=\"6\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text Title\" name=\"showTextTitle\" condition=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Details\" name=\"showDetails\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" condition=\"showDetails\">\n        <input type=\"color\" title=\"Color\" name=\"lineColor\" value=\"#1f1437\" condition=\"showDetails && showLine\">\n        <input type=\"range\" title=\"Opacity\" name=\"lineOpacity\" min=\"0.1\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"showDetails && showLine\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <select title=\"Align\" name=\"alignButtons\" condition=\"showButtons\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Nutrition</header>\n        <input type=\"checkbox\" title=\"Show\" name=\"showNutrition\">\n        <input type=\"color\" title=\"Background\" name=\"nutrBg\" value=\"#f3edf7\" condition=\"showNutrition\">\n        <input type=\"color\" title=\"Line Color\" name=\"horLineColor\" value=\"#cd8ad1\" condition=\"showNutrition\">\n        <select title=\"Items\" name=\"itemsCount\" condition=\"showNutrition\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" condition=\"showNutrition\" checked>\n        <input type=\"color\" title=\"Color\" name=\"iconColor\" value=\"#cd8ad1\" condition=\"showNutrition && showIcon\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1413.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row content\">\n            <div class=\"col-12 col-lg\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/national-team-logo-948x333.png\" alt>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Emergency Phone Number:</h3>\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\">+1-888-253-2683</h4>\n                    <h5 class=\"mbr-text-title mbr-fonts-style\" data-app-selector=\".mbr-text-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTextTitle && showText\"><b>Locations:</b></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Michigan: <br>2717 Industrial Row Dr, Troy, MI, 48084<br><br>Florida: <br>1400 Gulf Shore Blvd. N., Ste 178, Naples, FL, 34102</p>\n                </div>\n                <div class=\"nutrition\" mbr-if=\"showNutrition\">\n                    <div class=\"nutrition-head\">\n                        <h3 class=\"mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-7\">\n                            <b>NUTRITION PER SERVING</b>\n                        </h3>\n                        <div class=\"numbers\">\n                            <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">100</p>\n                            <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>45</b>\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"nutrition-wrap\">\n                        <div class=\"nutrition-tile\">\n                            <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-tile-text\"><b>Protein.............................</b></p>\n                            <div class=\"numbers\">\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">25</p>\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>11,25</b>\n                                </p>\n                            </div>\n                        </div>\n                        <div class=\"nutrition-tile\" mbr-if=\"itemsCount > 1\">\n                            <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-tile-text\"><b>Fat....................................</b></p>\n                            <div class=\"numbers\">\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">25</p>\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>11,25</b>\n                                </p>\n                            </div>\n                        </div>\n                        <div class=\"nutrition-tile\" mbr-if=\"itemsCount > 2\">\n                            <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-tile-text\"><b>Carbs...............................</b></p>\n                            <div class=\"numbers\">\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">30</p>\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>13,5</b>\n                                </p>\n                            </div>\n                        </div>\n                        <div class=\"nutrition-tile\" mbr-if=\"itemsCount > 3\">\n                            <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-tile-text\">\n                                <b>Protein.............................</b>\n                            </p>\n                            <div class=\"numbers\">\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">25</p>\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>11,25</b>\n                                </p>\n                            </div>\n                        </div>\n                        <div class=\"nutrition-tile\" mbr-if=\"itemsCount > 4\">\n                            <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-tile-text\">\n                                <b>Fat....................................</b>\n                            </p>\n                            <div class=\"numbers\">\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">25</p>\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>11,25</b>\n                                </p>\n                            </div>\n                        </div>\n                        <div class=\"nutrition-tile\" mbr-if=\"itemsCount > 5\">\n                            <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-tile-text\">\n                                <b>Carbs...............................</b>\n                            </p>\n                            <div class=\"numbers\">\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">30</p>\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>13,5</b>\n                                </p>\n                            </div>\n                        </div>\n                        <div class=\"nutrition-tile\">\n                            <div class=\"tile-text-wrap\">\n                                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"none\">\n                                    <g clip-path=\"url(#clip0)\">\n                                        <path d=\"M405.999 210.999H281.855L389.023 22.4413C391.675 17.7968 391.66 12.0976 388.98 7.46873C386.285 2.84374 381.347 0 375.999 0H196C189.543 0 183.812 4.1328 181.777 10.2539L91.7776 281.253C90.2385 285.823 91.0159 290.862 93.8283 294.773C96.6565 298.687 101.184 300.999 106 300.999H233.254L152.219 491.096C149.316 497.85 151.75 505.717 157.961 509.655C164.07 513.561 172.277 512.534 177.207 506.963L417.206 235.964C421.132 231.554 422.101 225.238 419.683 219.863C417.265 214.472 411.906 210.999 405.999 210.999V210.999Z\">\n                                        </path>\n                                    </g>\n                                    <defs>\n                                        <clipPath id=\"clip0\">\n                                            <rect width=\"512\" height=\"512\" fill=\"white\"></rect>\n                                        </clipPath>\n                                    </defs>\n                                </svg>\n                                <p class=\"mbr-tile-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-tile-text\">\n                                    <b>Nutritional energy<br>value, kcal</b>\n                                </p>\n                            </div>\n                            <div class=\"numbers\">\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\">453</p>\n                                <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-number\"><b>203,8</b>\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"price\">\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn {{alignButtons}}\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                        <a class=\"btn btn-size btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><strong>ADD</strong></a>\n                    </div>\n                    <div class=\"price-text-wrap\" mbr-if=\"showDetails\">\n                        <div>\n                            <p class=\"mbr-price-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-price-text\">PRICE</p>\n                            <p class=\"mbr-price-number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-price-number\">$80</p>\n                        </div>\n                        <div class=\"line\"></div>\n                        <div>\n                            <p class=\"mbr-amount-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-amount-text\">AMOUNT</p>\n                            <p class=\"mbr-amount-number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-amount-number\">16</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tCELhmX60R",
+          "_anchor": "body",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
